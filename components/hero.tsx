@@ -34,7 +34,7 @@ export default function Hero() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Mit der Software von Cannabase wird die Organisation deines CSC zum Kinderspiel. Trage dich jetzt in die Warteliste ein und erhalte in wenigen Tagen Zugang zu Cannabase.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-green-500 hover:bg-green-600 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Jetzt eintragen</a>
+                  <a className="btn text-white bg-green-500 hover:bg-green-600 w-full mb-4 sm:w-auto sm:mb-0" href="#waitlist-form">Jetzt eintragen</a>
                 </div>
               </div>
             </div>

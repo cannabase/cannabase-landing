@@ -1,16 +1,16 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, FormEvent } from 'react';
 
 export default function Newsletter() {
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+  const [errorMessage, setErrorMessage] = useState<string>('');
 
-  async function submitToWaitlist(event) {
+  async function submitToWaitlist(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setIsSubmitted(false);
     setErrorMessage('');
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.currentTarget);  // use currentTarget for the actual form element
 
     const waitlist = 'cluit2oug00022oykyurko6b6';
     const rawFormData = {
@@ -34,8 +34,13 @@ export default function Newsletter() {
         throw new Error('An error occurred while subscribing to the waitlist.');
       }
     } catch (err) {
-      console.log(err);
-      setErrorMessage(err.message);
+      if (err instanceof Error) {
+        console.log(err);
+        setErrorMessage(err.message);
+      } else {
+        console.log('An unexpected error occurred');
+        setErrorMessage('An unexpected error occurred');
+      }
     }
   }
 

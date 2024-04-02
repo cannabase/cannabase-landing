@@ -50,7 +50,7 @@ export default function Newsletter() {
           <div className="pb-12 md:pb-20">
             <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden">
               <div className="relative flex flex-col lg:flex-row justify-between items-center">
-                <div className="text-center lg:text-left lg:max-w-xl">
+                <div className="text-center lg:text-left">
                   <h3 className="h3 text-white mb-2">Interessiert einen CSC zu gründen?</h3>
                   <p className="text-gray-300 text-lg mb-6">Sichere Dir jetzt deinen frühen Zugang zu Cannabase - der führenden Plattform für deinen Cannabis Social Club. Trage dich in unsere Warteliste ein und du erhältst exklusiv die ersten 6 Monate von Cannabase kostenlos! Verpasse nicht diese einmalige Chance und melde dich noch heute an.</p>
                   <form onSubmit={submitToWaitlist}>
@@ -58,7 +58,7 @@ export default function Newsletter() {
                       <input type="email" name="email"
                              className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500"
                              placeholder="Deine E-Mail..." aria-label="Deine E-Mail..."/>
-                      <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 shadow">Eintragen
+                      <button type="submit" className="btn text-white bg-green-600 hover:bg-green-700 shadow">Eintragen
                       </button>
                     </div>
                     {isSubmitted && <p className="text-sm text-green-400 mt-3">Vielen Dank für Deine Anmeldung!</p>}

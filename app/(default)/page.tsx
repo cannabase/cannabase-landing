@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Cannabase - Deine einfache CSC Mitgliederverwaltung',
-  description: 'Cannabase bietet dir alles was du für deinen Cannabis Social Club benötigst. Von der Mitglieder über die Lagerverwaltung bis hin zum Bestell- und Bezahlungsmanagement ist alles inklusive.',
+  description: 'Cannabase bietet dir alles was du für deinen CSC benötigst. Von der Mitglieder über die Lagerverwaltung bis hin zum Bestellmanagement ist alles inklusive.',
 }
 
 import Hero from '@/components/hero'

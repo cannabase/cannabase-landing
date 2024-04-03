@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="de">
       <SpeedInsights />
       <Analytics />
       <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>

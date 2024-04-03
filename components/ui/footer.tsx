@@ -23,7 +23,7 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Produkt</h6>
+            <h5 className="text-gray-800 font-medium mb-2">Produkt</h5>
             <ul className="text-sm">
               <li className="mb-2">
                 <a href="#"
@@ -34,7 +34,7 @@ export default function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Unternehmen</h6>
+            <h5 className="text-gray-800 font-medium mb-2">Unternehmen</h5>
             <ul className="text-sm">
               <li className="mb-2">
                 <a href="https://app.cannabase.club/terms-of-service" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">AGB</a>
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
 
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Schreibe uns!</h6>
+            <h5 className="text-gray-800 font-medium mb-2">Schreibe uns!</h5>
             <a className="text-green-500" href="mailto:hello@cannabase.club">hello@cannabase.club</a>
           </div>
         </div>

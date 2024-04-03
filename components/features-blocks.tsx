@@ -32,7 +32,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Mitgliederverwaltung</h4>
-              <p className="text-gray-600 text-center">Eine einfache, und unkomplizierte Mitgliederverwaltung die genau auf die gesetzlichen Anforderungen angepasst ist.</p>
+              <p className="text-gray-600 text-center">Eine einfache, und unkomplizierte Mitgliederverwaltung die genau auf die gesetzlichen Anforderungen angepasst ist. Mit einem einfachen und sicheren Onboardingprozess.</p>
             </div>
 
             {/* 2nd item */}
@@ -48,7 +48,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Lagerverwaltung</h4>
-              <p className="text-gray-600 text-center">Mit der automatischen Lagerverwaltung werden alle Bestände korrekt geführt und deine Mitglieder sehen immer, was aktuell vorrätig ist.</p>
+              <p className="text-gray-600 text-center">Mit der automatischen Lagerverwaltung werden alle Bestände korrekt geführt und deine Mitglieder sehen immer, was aktuell vorrätig ist und somit auch, was Sie bestellen können.</p>
             </div>
 
             {/* 3rd item */}
@@ -82,7 +82,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Übersichtliches Dashboard</h4>
-              <p className="text-gray-600 text-center">In unserem intuitiven Dashboard erhälst du sofort den Überblick über deinen CSC.</p>
+              <p className="text-gray-600 text-center">In unserem intuitiven Dashboard erhälst du sofort den Überblick über deinen CSC. Immer und überall verfügbar.</p>
             </div>
 
             {/* 5th item */}
@@ -98,7 +98,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">App für die Mitglieder</h4>
-              <p className="text-gray-600 text-center">Eine einfache App zur Verwaltung Ihrer Mitgliedschaft und Ihrer Bestellungen.</p>
+              <p className="text-gray-600 text-center">Eine einfache App für deine Mitglieder:innen zur Verwaltung Ihrer Mitgliedschaft und Ihrer Bestellungen.</p>
             </div>
 
             {/* 6th item */}

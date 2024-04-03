@@ -52,7 +52,7 @@ export default function Newsletter() {
               <div className="relative flex flex-col lg:flex-row justify-between items-center">
                 <div className="text-center lg:text-left">
                   <h3 className="h3 text-white mb-2">Interessiert einen CSC zu gründen?</h3>
-                  <p className="text-gray-300 text-lg mb-6">Sichere Dir jetzt deinen frühen Zugang zu Cannabase - der führenden Plattform für deinen Cannabis Social Club. Trage dich in unsere Warteliste ein und du erhältst exklusiv die ersten 3 Monate von Cannabase kostenlos! Verpasse nicht diese einmalige Chance und melde dich noch heute an.</p>
+                  <p className="text-gray-300 text-lg mb-6">Trage dich in unsere Warteliste ein und du erhältst regelmäßig Informationen zu Cannabase! Verpasse nicht diese einmalige Chance und melde dich noch heute an.</p>
                   <form id="waitlist-form" onSubmit={submitToWaitlist}>
                     <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                       <input type="email" name="email"

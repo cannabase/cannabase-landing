@@ -31,10 +31,10 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Die <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400">einfachste</span> Lösung für deinen Cannabis Social Club</h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Mit der Software von Cannabase wird die Organisation deines CSC zum Kinderspiel. Trage dich jetzt in die Warteliste ein und erhalte in wenigen Tagen Zugang zu Cannabase.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Mit der Software von Cannabase wird die Organisation deines CSC zum Kinderspiel. Registriere dich jetzt und erhalte sofort Zugang zur Vorabversion von Cannabase.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-green-500 hover:bg-green-600 w-full mb-4 sm:w-auto sm:mb-0" href="#waitlist-form">Jetzt eintragen</a>
+                  <a className="btn text-white bg-green-500 hover:bg-green-600 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.cannabase.club">Jetzt registrieren</a>
                 </div>
               </div>
             </div>

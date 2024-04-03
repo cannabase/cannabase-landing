@@ -37,11 +37,10 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Unternehmen</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="/about-us" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Über
-                  uns</a>
+                <a href="https://app.cannabase.club/terms-of-service" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">AGB</a>
               </li>
               <li className="mb-2">
-                <a href="/privacy"
+                <a href="https://app.cannabase.club/privacy-policy"
                    className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Datenschutzerklärung</a>
               </li>
               <li className="mb-2">

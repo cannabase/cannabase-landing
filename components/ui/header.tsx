@@ -58,6 +58,14 @@ export default function Header() {
                   </svg>
                 </a>
               </li>
+              <li className="ml-10">
+                <a href="https://app.cannabis.club">
+                  <button
+                      className="bg-green-500 hover:bg-green-600 text-black font-semibold py-2 px-4 border border-green-400 rounded shadow hover:shadow-md inline-flex items-center">Zur
+                    App
+                  </button>
+                </a>
+              </li>
 
             </ul>
             {/* Desktop sign in links */}

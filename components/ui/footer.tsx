@@ -13,12 +13,6 @@ export default function Footer() {
             <div className="mb-2">
               <Logo/>
             </div>
-            <div className="text-sm text-gray-600">
-              <a href="/agb"
-                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">AGB</a> · <a
-                href="/privacy"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Datenschutzerklärung</a>
-            </div>
           </div>
 
           {/* 2nd block */}
@@ -26,8 +20,8 @@ export default function Footer() {
             <h5 className="text-gray-800 font-medium mb-2">Produkt</h5>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#"
-                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Cannabase</a>
+                <a href="https://app.cannabase.club"
+                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">CannaBase</a>
               </li>
             </ul>
           </div>

@@ -11,10 +11,13 @@ export default function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
-              <Logo />
+              <Logo/>
             </div>
             <div className="text-sm text-gray-600">
-              <a href="/agb" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">AGB</a> · <a href="/privacy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Datenschutzerklärung</a>
+              <a href="/agb"
+                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">AGB</a> · <a
+                href="/privacy"
+                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Datenschutzerklärung</a>
             </div>
           </div>
 
@@ -23,7 +26,8 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Produkt</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Cannabase</a>
+                <a href="#"
+                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Cannabase</a>
               </li>
             </ul>
           </div>
@@ -46,12 +50,17 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
+          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+            <h6 className="text-gray-800 font-medium mb-2">Schreibe uns!</h6>
+            <a className="text-green-500" href="mailto:hello@cannabase.club">hello@cannabase.club</a>
+          </div>
         </div>
 
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
 
-        {/* Social as */}
+          {/* Social as */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a href="https://www.instagram.com/cannabase.club/"

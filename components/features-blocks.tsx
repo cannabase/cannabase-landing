@@ -32,7 +32,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Mitgliederverwaltung</h4>
-              <p className="text-gray-600 text-center">Einfach, übersichtlich und schnell</p>
+              <p className="text-gray-600 text-center">Eine einfache, und unkomplizierte Mitgliederverwaltung die genau auf die gesetzlichen Anforderungen angepasst ist.</p>
             </div>
 
             {/* 2nd item */}
@@ -48,7 +48,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Lagerverwaltung</h4>
-              <p className="text-gray-600 text-center">Mit der automatischen Lagerverwaltung gibt es nie falsche Bestellungen.</p>
+              <p className="text-gray-600 text-center">Mit der automatischen Lagerverwaltung werden alle Bestände korrekt geführt und deine Mitglieder sehen immer, was aktuell vorrätig ist.</p>
             </div>
 
             {/* 3rd item */}
@@ -65,7 +65,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Zahlungsabwicklung</h4>
-              <p className="text-gray-600 text-center">Optional kannst du die Bezahlung deiner Mitglieder per Online Bezahlfunktion einrichten.</p>
+              <p className="text-gray-600 text-center">Optional kannst du die Bezahlung deiner Mitglieder per Online Bezahlfunktion einrichten. Ob der Einzug des Monatsbeitrags oder für einmalige Bestellungen, alles ist dabei abgedeckt.</p>
             </div>
 
             {/* 4th item */}
@@ -82,7 +82,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Übersichtliches Dashboard</h4>
-              <p className="text-gray-600 text-center">Schnell alle Informationen über deinen CSC gewinnen.</p>
+              <p className="text-gray-600 text-center">In unserem intuitiven Dashboard erhälst du sofort den Überblick über deinen CSC.</p>
             </div>
 
             {/* 5th item */}
@@ -113,7 +113,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Dokumentation</h4>
-              <p className="text-gray-600 text-center">Alles rechtskonform dokumentiert. Aber auch nur was wirklich benötigt wird.</p>
+              <p className="text-gray-600 text-center">Alles rechtskonform dokumentiert. Aber auch nur was wirklich benötigt wird. 100% in Deutschland gehostet.</p>
             </div>
 
           </div>

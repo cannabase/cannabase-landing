@@ -65,7 +65,7 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2">
             <li>
-              <a href="https://app.cannabis.club">
+              <a href="https://app.cannabase.club">
                 <button
                     className="w-full text-center bg-green-500 hover:bg-green-600 text-black font-semibold py-2 px-4 border border-green-400 rounded shadow hover:shadow-md items-center">Zur
                   App

@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, FormEvent } from 'react';
+import Button from "@/components/ui/button";
 
 export default function Newsletter() {
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
@@ -58,8 +59,7 @@ export default function Newsletter() {
                       <input type="email" name="email"
                              className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500"
                              placeholder="Deine E-Mail..." aria-label="Deine E-Mail..."/>
-                      <button type="submit" className="btn text-white bg-green-600 hover:bg-green-700 shadow">Eintragen
-                      </button>
+                      <Button text="Eintragen"></Button>
                     </div>
                     {isSubmitted && <p className="text-sm text-green-400 mt-3">Vielen Dank für Deine Anmeldung!</p>}
                     {errorMessage && <p className="text-sm text-red-400 mt-3">{errorMessage}</p>}

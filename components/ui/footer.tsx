@@ -50,7 +50,7 @@ export default function Footer() {
 
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h5 className="text-gray-800 font-medium mb-2">Schreibe uns!</h5>
-            <a className="text-green-500" href="mailto:hello@cannabase.club">hello@cannabase.club</a>
+            <a className="text-lime-500 hover:text-lime-600" href="mailto:hello@cannabase.club">hello@cannabase.club</a>
           </div>
         </div>
 

@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
+import Button from "@/components/ui/button";
 
 export default function Header() {
 
@@ -60,10 +61,7 @@ export default function Header() {
               </li>
               <li className="ml-10">
                 <a href="https://app.cannabase.club">
-                  <button
-                      className="bg-green-500 hover:bg-green-600 text-black font-semibold py-2 px-4 border border-green-400 rounded shadow hover:shadow-md inline-flex items-center">Zur
-                    App
-                  </button>
+                  <Button text="Zur App"></Button>
                 </a>
               </li>
 

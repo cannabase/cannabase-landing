@@ -1,5 +1,6 @@
 import Image from "next/image";
 import app_image from '@/public/images/app.png'
+import Button from "@/components/ui/button";
 
 export default function Hero() {
   return (
@@ -34,7 +35,9 @@ export default function Hero() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Mit der Software von Cannabase wird die Organisation deines CSC zum Kinderspiel. Registriere dich jetzt und erhalte sofort Zugang zur Vorabversion von Cannabase. Überzeuge dich selbst von der einfachsten Lösung am Markt.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-green-500 hover:bg-green-600 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.cannabase.club/register">Jetzt registrieren</a>
+                  <a href="https://app.cannabase.club/register">
+                    <Button text="Jetzt registrieren"></Button>
+                  </a>
                 </div>
               </div>
             </div>

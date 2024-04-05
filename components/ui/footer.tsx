@@ -17,11 +17,15 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h5 className="text-gray-800 font-medium mb-2">Produkt</h5>
+            <h5 className="texst-gray-800 font-medium mb-2">Produkt</h5>
             <ul className="text-sm">
               <li className="mb-2">
                 <a href="https://app.cannabase.club"
                    className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">CannaBase</a>
+              </li>
+              <li className="mb-2">
+                <a href="/blog"
+                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
               </li>
             </ul>
           </div>
